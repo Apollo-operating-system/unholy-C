@@ -39,21 +39,21 @@ B30 END /VM
 
 In Unholy C, line numbers use a prefixing system to differentiate between the main function and other functions:
 
-## Main Function
+ Main Function
 
 - **Line Numbers:** 10, 20, 30, ..., 40
 
-## Function 1 (A Prefix)
+ Function 1 (A Prefix)
 
 - **Line Numbers:** A10, A20, A30, ..., A40
 
-## Function 2 (B Prefix)
+ Function 2 (B Prefix)
 
 - **Line Numbers:** B10, B20, B30, ..., B40
 
 This pattern continues up to function 26 (Z prefix). For functions beyond 26, prefixes loop back with additional letters:
 
-## Extended Functions
+ Extended Functions
 
 - **Function 27:** AA10, AA20, ..., AA40
 - **Function 28:** BA10, BA20, ..., BA40

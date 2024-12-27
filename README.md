@@ -154,27 +154,27 @@ To reset the prefix, use a scope reset tag. After a scope reset, functions are c
   **Extra Info:** Indicates that the function should only be called from a single thread.  
   **Non-Compatibility:** /TS
 
--**/CC** concurrent
+- **/CC** concurrent
 - **Extra Info:** Allows the function to run concurrently with others, handling synchronization internally.
 - **Non-Compatibility:** None
 
 ## Resource Management
 
--**/MI** Memory Intensive 
+- **/MI** Memory Intensive 
 - **Extra Info:** Indicates that the function uses a significant amount of memory.
 - **Non-Compatibility:** None
 
--**/RI** Resource Intensive 
+- **/RI** Resource Intensive 
 - **Extra Info:** Indicates that the function heavily uses system resources, such as CPU or I/O.
 - **Non-Compatibility:** None
 
 ## Deprecated and Compatibility
 
--**/DP** Deprecated
+- **/DP** Deprecated
 - **Extra Info:** Marks a function as deprecated and suggests it should not be used in new code.
 - **Non-Compatibility:** None
 
--**/BC** Backward Compatible
+- **/BC** Backward Compatible
 - **Extra Info:** Ensures the function maintains compatibility with older versions of the compiler.
 - **Non-Compatibility:** None
 

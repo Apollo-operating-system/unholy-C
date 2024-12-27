@@ -22,16 +22,16 @@ B20 print "In checkFunction: Checking x = " x
 B30 if x >= target goto endFunction
 B40 goto incrementFunction
 
-A10 displayFunction /C /S1
-A20 print "In displayFunction: Displaying x = " x
-A30 if x == 2 goto checkFunction
-A40 x = x + 1
-A50 if x == 3 goto endFunction
-A60 goto incrementFunction
+1A10 displayFunction /C /S1
+1A20 print "In displayFunction: Displaying x = " x
+1A30 if x == 2 goto checkFunction
+1A40 x = x + 1
+1A50 if x == 3 goto endFunction
+1A60 goto incrementFunction
 
-B10 endFunction /C
-B20 print "In endFunction: Ending program"
-B30 END /VM
+1B10 endFunction /C
+1B20 print "In endFunction: Ending program"
+1B30 END /VM
 ```
 
 

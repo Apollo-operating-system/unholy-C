@@ -88,7 +88,7 @@ To reset the prefix, use a scope reset tag. After a scope reset, functions are c
   **Extra Info:** Resets the line number prefix for subsequent functions until the next scope is defined. Useful for organizing code into modular sections.  
   **Non-Compatibility:** None
 
-## Performance Optimization
+### Performance Optimization
 
 - **/OS** Optimize for Speed  
   **Extra Info:** Prioritizes execution speed over other factors.  
@@ -110,7 +110,7 @@ To reset the prefix, use a scope reset tag. After a scope reset, functions are c
   **Extra Info:** Marks a function as a performance-critical section to prioritize optimizations.  
   **Non-Compatibility:** None
 
-## Debugging and Logging
+### Debugging and Logging
 
 - **/LE** Log Execution  
   **Extra Info:** Enables detailed logging of function execution for debugging purposes.  
@@ -124,7 +124,7 @@ To reset the prefix, use a scope reset tag. After a scope reset, functions are c
   **Extra Info:** Enables debug mode, which includes additional checks and verbose output.  
   **Non-Compatibility:** None
 
-## Security
+### Security
 
 - **/SC** Secure  
   **Extra Info:** Implements security features to prevent vulnerabilities.  
@@ -134,7 +134,7 @@ To reset the prefix, use a scope reset tag. After a scope reset, functions are c
   **Extra Info:** Runs the function in a restricted environment to contain potential issues.  
   **Non-Compatibility:** /SC
 
-## Garbage Collection
+### Garbage Collection
 
 - **/CS** Critical Section  
   **Extra Info:** Marks code that should not be interrupted by garbage collection.  
@@ -144,7 +144,7 @@ To reset the prefix, use a scope reset tag. After a scope reset, functions are c
   **Extra Info:** Ensures that garbage collection is performed with minimal impact on performance.  
   **Non-Compatibility:** None
 
-## Concurrency
+### Concurrency
 
 - **/TS** Thread Safe  
   **Extra Info:** Ensures that the function can be safely called from multiple threads.  
@@ -158,7 +158,7 @@ To reset the prefix, use a scope reset tag. After a scope reset, functions are c
 - **Extra Info:** Allows the function to run concurrently with others, handling synchronization internally.
 - **Non-Compatibility:** None
 
-## Resource Management
+### Resource Management
 
 - **/MI** Memory Intensive 
 - **Extra Info:** Indicates that the function uses a significant amount of memory.
@@ -168,7 +168,7 @@ To reset the prefix, use a scope reset tag. After a scope reset, functions are c
 - **Extra Info:** Indicates that the function heavily uses system resources, such as CPU or I/O.
 - **Non-Compatibility:** None
 
-## Deprecated and Compatibility
+### Deprecated and Compatibility
 
 - **/DP** Deprecated
 - **Extra Info:** Marks a function as deprecated and suggests it should not be used in new code.
